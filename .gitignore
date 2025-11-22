@@ -1,0 +1,61 @@
+# --- Python bytecode / caches ---
+__pycache__/
+**/__pycache__/
+*.py[cod]
+*$py.class
+
+# --- Jupyter ---.ipynb_checkpoints/
+**/.ipynb_checkpoints/.jupyter/
+# (keep *.ipynb under version control)
+
+# --- Virtual environments ---.env.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+sdenenv/
+
+# --- Packaging / build artifacts ---
+build/
+dist/
+*.egg-info/
+*.egg.eggs/
+*.whl
+share/python-wheels/
+pip-wheel-metadata/
+pip-log.txt
+pip-delete-this-directory.txt
+MANIFEST
+
+# --- Test / coverage artifacts ---
+htmlcov/.tox/.nox/.coverage.coverage.*.cache.pytest_cache/
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover.hypothesis/
+
+# --- Type checking caches ---.mypy_cache/.pyre/.pytype/.dmypy.json
+dmypy.json
+
+# --- IDE / editor configs ---.vscode/.idea/
+*.code-workspace.vs/.ropeproject/.spyderproject.spyproject
+
+# --- OS-specific junk ---.DS_Store
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+~$*
+
+# --- Logs / local databases ---
+*.log
+*.sqlite
+*.sqlite3
+
+# --- Misc caches ---.matplotlib/
+.matplotlib/
+data/
+data/raw/
+*.parquet
+*.pkl
+*.csv
